@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F4F3"/>
+      <stop offset="100%" stop-color="#C5E0DD"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <!-- Head (no face) -->
+  <circle cx="300" cy="220" r="90" fill="#7AA8A3"/>
+  <!-- Shoulders / torso -->
+  <path d="M120 520 C120 400, 200 350, 300 350 C400 350, 480 400, 480 520 Z" fill="#7AA8A3"/>
+</svg>
