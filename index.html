@@ -4,11 +4,70 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Prakash Dental Clinic | Dr. J. P. Mishra | Dr Priyam Mishra | Azamgarh</title>
+  <meta name="description" content="Prakash Dental Clinic in Azamgarh. Founded by Dr. J. P. Mishra. Our team includes Dr. Priyam Mishra, a male dental surgeon (B.D.S. 2020), and other experienced dentists.">
   <link rel="shortcut icon" href="assets/images/fav.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Prakash Dental Clinic",
+    "url": "https://prakashdentalclinic.com/",
+    "telephone": "+919415237578",
+    "email": "prakashdentalclinic1984@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kurmi Tola, Matbarganj",
+      "addressLocality": "Azamgarh",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "276001",
+      "addressCountry": "IN"
+    },
+    "employee": [
+      {
+        "@type": "Person",
+        "name": "Dr. Jai Prakash Mishra",
+        "jobTitle": "Dental Surgeon",
+        "gender": "Male",
+        "worksFor": { "@type": "Dentist", "name": "Prakash Dental Clinic" }
+      },
+      {
+        "@type": "Person",
+        "name": "Dr. Priyam Mishra",
+        "alternateName": ["Priyam Mishra", "Dr Priyam Mishra"],
+        "jobTitle": "Dental Surgeon",
+        "gender": "Male",
+        "description": "Dr. Priyam Mishra is a male dental surgeon at Prakash Dental Clinic in Azamgarh. He completed his B.D.S. in 2020.",
+        "image": "https://prakashdentalclinic.com/assets/images/team/priyam.jpeg",
+        "worksFor": { "@type": "Dentist", "name": "Prakash Dental Clinic" }
+      },
+      {
+        "@type": "Person",
+        "name": "Dr. Shraddha Mishra",
+        "jobTitle": "Dental Surgeon",
+        "gender": "Female",
+        "worksFor": { "@type": "Dentist", "name": "Prakash Dental Clinic" }
+      },
+      {
+        "@type": "Person",
+        "name": "Dr. Abhishek Singh",
+        "jobTitle": "Dental Surgeon",
+        "gender": "Male",
+        "worksFor": { "@type": "Dentist", "name": "Prakash Dental Clinic" }
+      },
+      {
+        "@type": "Person",
+        "name": "Dr. Avinash Mishra",
+        "jobTitle": "Dental Surgeon",
+        "gender": "Male",
+        "worksFor": { "@type": "Dentist", "name": "Prakash Dental Clinic" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -111,11 +170,13 @@
             <p>Dental Surgeon</p>
             <p>B.H.U.(1984)</p>
           </article>
-          <article class="team-member reveal">
-            <img src="assets/images/team/priyam.jpeg" alt="Dr. Priyam Mishra">
-            <h3>Dr. Priyam Mishra</h3>
-            <p>Dental Surgeon</p>
+          <article class="team-member reveal" itemscope itemtype="https://schema.org/Person">
+            <meta itemprop="gender" content="Male">
+            <img src="assets/images/team/priyam.jpeg" alt="Dr. Priyam Mishra, male dental surgeon at Prakash Dental Clinic" itemprop="image">
+            <h3 itemprop="name">Dr. Priyam Mishra</h3>
+            <p itemprop="jobTitle">Dental Surgeon</p>
             <p>B.D.S. (2020)</p>
+            <p class="team-bio" itemprop="description">Dr. Priyam Mishra is a male dental surgeon at Prakash Dental Clinic. He completed his B.D.S. in 2020.</p>
           </article>
           <article class="team-member reveal">
             <img src="assets/images/team/placeholder.svg" alt="Dr. Shraddha Mishra">
