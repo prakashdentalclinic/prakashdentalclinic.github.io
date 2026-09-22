@@ -461,14 +461,6 @@ p {
   font-weight: 600;
 }
 
-.team-member .team-bio {
-  margin-top: 0.55rem;
-  color: var(--ink-soft);
-  font-weight: 400;
-  font-size: 0.84rem;
-  line-height: 1.45;
-}
-
 /* Address */
 .address {
   padding: 0 0 clamp(4rem, 8vw, 5.5rem);
